@@ -1,0 +1,43 @@
+#linkedIn{
+    color: blue;
+}
+#linkedIn:hover{
+    color: rgb(3, 3, 66);
+}
+#Insta{
+    color: crimson;
+}
+#Insta:hover{
+    color: rgb(156, 5, 5);
+}
+#whats{
+    color: rgb(34, 102, 20);
+}
+#whats:hover{
+    color: rgb(7, 204, 7);
+}
+#github{
+    color: rgb(73, 72, 72);
+}
+#github:hover{
+    color: grey;
+}
+
+#hacker{
+    color: green;
+}
+#hacker:hover{
+    color: rgb(4, 194, 4);
+}
+#codechef{
+    color: rgb(75, 114, 95);
+}
+#codechef:hover{
+    color: rgb(43, 33, 33);
+}
+#codef{
+    color: rgb(92, 69, 39);
+}
+#codef:hover{
+    color: rgb(51, 26, 26);
+}
