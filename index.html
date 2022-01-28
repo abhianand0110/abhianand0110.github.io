@@ -11,6 +11,21 @@
     <link rel="stylesheet" href="style.css">
     <title>Home | Abhishek Anand</title>
   </head>
+  
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/61f211e6b9e4e21181bc1bc7/1fqcpbsae';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><i class="fas fa-shield-alt"> abhi</i></a>
@@ -252,7 +267,37 @@
 
 <div class="container" id="contact">
   <h3 class="text-center my-4">- Contact Me -</h3><br><br>
-  <iframe class="hii2 text-center" src="https://docs.google.com/forms/d/e/1FAIpQLScG6VG7TeFrm7mso2pymciPV3LcGahi1h0b0Pco3Vm6z7uMXg/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+ <form  class="form-horizontal">
+    <form id="form1" action="mailto:abhianand2308@gmail.com" method="post" enctype="text/plain">
+      <div id="message"></div>
+        <div class="form-group">
+          <label for="nameabhi">Name</label>
+          <input type="text" class="form-control" id="nameabhi" placeholder="Name">
+       </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com"Required>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Select Your Query</label>
+        <select class="form-control" id="exampleFormControlSelect1"Required>
+          <option>C/C++/Python</option>
+          <option>Competitive Codings</option>
+          <option>web-development</option>
+          <option>Machine Learning</option>
+          <option>IOT</option>
+          <option>Graphic Designing</option>
+          <option>Others</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Detail of your Query</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"Required></textarea>
+      </div>
+
+      <button type="button" class="btn btn-primary btn-lg btn-block" id="myself">Submit</button>
+    </form>
+
     </div>
     
     <hr class="featurette-divider my-4">
